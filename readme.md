@@ -10,7 +10,7 @@ The macro creates a progressbar at the bottom of each slide. Additionally the pr
 ## Create the Macro
 1. Go into the Developer Options
 2. Click on ``Visual Basic`` to open the Visual Basic Editor
-3. Import the [PowerpointProgressbar.bas](../PowerpointProgressbar.bas) file or create a new Module ``Insert -> Module`` and paste the code of the PowerpointProgressbar.bas file into into the Editor. If you copy and paste the code you have to remove the first line ``Attribute VB_Name = "PowerBar"``
+3. Import the [PowerpointProgressbar.bas](PowerpointProgressbar.bas) file or create a new Module ``Insert -> Module`` and paste the code of the PowerpointProgressbar.bas file into into the Editor. If you copy and paste the code you have to remove the first line ``Attribute VB_Name = "PowerBar"``
 4. Save the module and exit the editor
 
 ## Run Macro
