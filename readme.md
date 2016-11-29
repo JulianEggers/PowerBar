@@ -1,6 +1,6 @@
 # PowerBar
-PowerBar is a Visual Basic for Applications (VBA) Powerpoint-Macro for including a progressbar into a Powerpoint presentation.
-The macro creates a progressbar at the bottom of each slide. Additionally the progress of the presentation is printed as percentage on the progressbar.
+PowerBar is a Visual Basic for Applications (VBA) Powerpoint-Macro for including a progress bar into a Powerpoint presentation.
+The macro creates a progress bar at the bottom of each slide. Additionally the progress of the presentation is printed as percentage on the progress bar.
 
 ## Preparation of Powerpoint
 
@@ -10,7 +10,7 @@ The macro creates a progressbar at the bottom of each slide. Additionally the pr
 ## Create the Macro
 1. Go into the Developer Options
 2. Click on ``Visual Basic`` to open the Visual Basic Editor
-3. Import the [PowerpointProgressbar.bas](PowerBar.bas) file or create a new Module ``Insert -> Module`` and paste the code of the PowerpointProgressbar.bas file into into the Editor. If you copy and paste the code you have to remove the first line ``Attribute VB_Name = "PowerBar"``
+3. Import the [PowerBar.bas](PowerBar.bas) file or create a new Module ``Insert -> Module`` and paste the code of the PowerBar.bas file into into the Editor. If you copy and paste the code you have to remove the first line ``Attribute VB_Name = "PowerBar"``
 4. Save the module and exit the editor
 
 ## Run Macro
