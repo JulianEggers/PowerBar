@@ -13,6 +13,13 @@ The macro creates a progress bar at the bottom of each slide. Additionally the p
 3. Import the [PowerBar.bas](PowerBar.bas) file or create a new Module ``Insert -> Module`` and paste the code of the PowerBar.bas file into into the Editor. If you copy and paste the code you have to remove the first line ``Attribute VB_Name = "PowerBar"``
 4. Save the module and exit the editor
 
+
+## Options
+Some changes can be made in the code of the add-on:
+- change the color
+- skip the first pages
+- change position and size of the progress bar
+
 ## Run Macro
 1. Go into the Developer Options
 2. Click on ``Macros``
