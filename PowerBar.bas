@@ -5,7 +5,7 @@ Option Explicit
 Sub CreatePowerBar()
 
     Dim amountOfSlides As Long
-    Dim SpezialSlides As Long
+    Dim SpecialSlides As Long
     Dim typ As Long
     Dim left As Long
     Dim top As Long
@@ -27,7 +27,7 @@ Sub CreatePowerBar()
     color = RGB(65, 174, 189)
     
     'Amount of first Slides without the Powerbar'
-    SpezialSlides = 2
+    SpecialSlides = 2
     
     'Style the PowerBar'
     typ = 1                                         'Type of the shape of he Powerbar'
@@ -43,7 +43,7 @@ Sub CreatePowerBar()
     Dim slide As slide
     For Each slide In ActivePresentation.Slides
         
-        If slide.SlideNumber > SpezialSlides Then
+        If slide.SlideNumber > SpecialSlides Then
             
             'Add a shape to display the progress'
             progress = progressbarLength / amountOfSlides * slide.SlideNumber
