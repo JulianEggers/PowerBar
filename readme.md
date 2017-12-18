@@ -4,7 +4,7 @@ The macro creates a progress bar at the bottom of each slide. Additionally the p
 
 ## Preparation of Powerpoint
 
-1. Save your presentation as .pptm (Powerpointpresentation with Macros) (Otherwise the macro will not be saved.)
+1. Save your presentation as .pptm (Powerpointpresentation with Macros) (Otherwise the macro will not be saved).
 2. [Activate Developer Options](https://support.office.com/en-us/article/Show-the-Developer-tab-e1192344-5e56-4d45-931b-e5fd9bea2d45#ID0EAABAAA=2016,_2013,_2010)
 
 ## Create the Macro
